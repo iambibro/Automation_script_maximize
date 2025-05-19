@@ -105,8 +105,9 @@ def extract_shortinfo(tnc_lines, how_to_use_lines):
 def extract_and_format(json_data):
     name = json_data['data'].get('name', '')
     sku = json_data['data'].get('sku', '')
-    denominations = json_data.get('price', {}).get('denominations', [])
-    denominations_str = ','.join(str(d) for d in denominations)
+    denominations_list = json_data.get('data', {}).get('price', {}).get('denominations', [])
+    denominations_str = ','.join(str(d) for d in denominations_list)
+    
     description = json_data['data'].get('description', '')
 
     # T&C content: split, strip HTML, clean
