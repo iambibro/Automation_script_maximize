@@ -82,23 +82,23 @@ def extract_shortinfo(tnc_lines, how_to_use_lines):
             validity = f"Valid for {num} {unit_str}"
             break
 
-    # # Validity
-    # for line in tnc_lines:
-    #     m = re.search(r'valid\s*for\s*(\d+)\s*(year|month|months)', line.lower())
-    #     if m:
-    #         num = m.group(1)
-    #         unit = m.group(2)
-    #         if unit.startswith('month'):
-    #             validity = f"Valid for {num} month only"
-    #         else:
-    #             validity = f"Valid for {num} year only"
-    #         break
-    #     elif "valid for" in line.lower():
-    #         # fallback, just use the whole line
-    #         validity = re.sub(r'\.$', '', line)
-    #         break
+    # Validity
+    for line in tnc_lines:
+        m = re.search(r'valid\s*for\s*(\d+)\s*(year|month|months)', line.lower())
+        if m:
+            num = m.group(1)
+            unit = m.group(2)
+            if unit.startswith('month'):
+                validity = f"Valid for {num} month only"
+            else:
+                validity = f"Valid for {num} year only"
+            break
+        elif "valid for" in line.lower():
+            # fallback, just use the whole line
+            validity = re.sub(r'\.$', '', line)
+            break
 
-    # Compose shortInfo
+    Compose shortInfo
     shortinfo = [
         {
             "icon": " https://savemax.s3.ap-south-1.amazonaws.com/giftcard/icons/pay-online-offline-icon.svg",
