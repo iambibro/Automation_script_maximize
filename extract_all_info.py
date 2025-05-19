@@ -6,13 +6,6 @@ def strip_html_tags(text):
     return re.sub(r'<.*?>', '', text)
 
 def extract_shortinfo(tnc_lines, how_to_use_lines):
-    # Defaults
-    where_to_redeem = "See T&C"
-    single_or_multiple = "See T&C"
-    clubbed = "See T&C"
-    validity = "See T&C"
-
-    # Where to Redeem
     # Enhanced Where to Redeem logic
     redeem_online = False
     redeem_store = False
@@ -34,6 +27,7 @@ def extract_shortinfo(tnc_lines, how_to_use_lines):
         where_to_redeem = "See T&C"
 
     # Single Use or Multiple Use
+    single_or_multiple = "See T&C"
     for line in tnc_lines:
         if "cannot be redeemed partially" in line.lower():
             single_or_multiple = "Must use the full balance in one go"
@@ -46,6 +40,7 @@ def extract_shortinfo(tnc_lines, how_to_use_lines):
             break
 
     # Can the cards be clubbed?
+    clubbed = "See T&C"
     for line in tnc_lines:
         m = re.search(r'maximum of (\d+) gift cards', line.lower())
         if m:
@@ -55,22 +50,19 @@ def extract_shortinfo(tnc_lines, how_to_use_lines):
             clubbed = "Multiple gift cards can be used in one purchase."
             break
 
-        # Validity
-    # validity = "See T&C"
+    # Enhanced Validity
+    validity = "See T&C"
     for line in tnc_lines:
-        # Look for patterns like 'valid for 12 months', 'valid for 1 year', etc.
         m = re.search(r'valid\s*(?:for|ity)?\s*(?:of)?\s*(\d+)\s*(year|month|years|months)', line.lower())
         if m:
             num = m.group(1)
             unit = m.group(2)
-            # Normalize unit
             if unit.startswith('year'):
                 unit_str = "year" if num == "1" else "years"
             else:
                 unit_str = "month" if num == "1" else "months"
             validity = f"Valid for {num} {unit_str}"
             break
-        # Try to catch cases like 'validity: 6 months'
         m2 = re.search(r'validity\s*[:\-]?\s*(\d+)\s*(year|month|years|months)', line.lower())
         if m2:
             num = m2.group(1)
@@ -82,46 +74,33 @@ def extract_shortinfo(tnc_lines, how_to_use_lines):
             validity = f"Valid for {num} {unit_str}"
             break
 
-    # Validity
-    for line in tnc_lines:
-        m = re.search(r'valid\s*for\s*(\d+)\s*(year|month|months)', line.lower())
-        if m:
-            num = m.group(1)
-            unit = m.group(2)
-            if unit.startswith('month'):
-                validity = f"Valid for {num} month only"
-            else:
-                validity = f"Valid for {num} year only"
-            break
-        elif "valid for" in line.lower():
-            # fallback, just use the whole line
-            validity = re.sub(r'\.$', '', line)
-            break
-
-    Compose shortInfo
+    # Compose shortInfo, only include Single Use or Multiple Use and Clubbed if not "See T&C"
     shortinfo = [
         {
             "icon": " https://savemax.s3.ap-south-1.amazonaws.com/giftcard/icons/pay-online-offline-icon.svg",
             "title": "Where to Redeem?",
             "subtext": where_to_redeem
-        },
-        {
+        }
+    ]
+    if single_or_multiple != "See T&C":
+        shortinfo.append({
             "icon": " https://savemax.s3.ap-south-1.amazonaws.com/giftcard/icons/how-to-use-icon.svg",
             "title": "Single Use or Multiple Use?",
             "subtext": single_or_multiple
-        },
-        {
+        })
+    if clubbed != "See T&C":
+        shortinfo.append({
             "icon": " https://savemax.s3.ap-south-1.amazonaws.com/giftcard/icons/clubbale-icon.svg",
             "title": "Can the cards be clubbed?",
             "subtext": clubbed
-        },
-        {
-            "icon": " https://savemax.s3.ap-south-1.amazonaws.com/giftcard/icons/calender-icon.svg",
-            "title": "Validity",
-            "subtext": validity
-        }
-    ]
+        })
+    shortinfo.append({
+        "icon": " https://savemax.s3.ap-south-1.amazonaws.com/giftcard/icons/calender-icon.svg",
+        "title": "Validity",
+        "subtext": validity
+    })
     return shortinfo
+
 
 def extract_and_format(json_data):
     name = json_data['data'].get('name', '')

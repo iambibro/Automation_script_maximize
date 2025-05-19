@@ -146,11 +146,6 @@ Update gift_cards set shortInfo =
     "subtext": "Must use the full balance in one go"
   },
   {
-    "icon": " https://savemax.s3.ap-south-1.amazonaws.com/giftcard/icons/clubbale-icon.svg",
-    "title": "Can the cards be clubbed?",
-    "subtext": "See T&C"
-  },
-  {
     "icon": " https://savemax.s3.ap-south-1.amazonaws.com/giftcard/icons/calender-icon.svg",
     "title": "Validity",
     "subtext": "See T&C"
