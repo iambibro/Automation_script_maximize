@@ -1,0 +1,191 @@
+{
+    "status": "success",
+    "data": {
+        "id": "3316",
+        "sku": "EGCGBMARI002",
+        "name": "Marriott India Egift Card-Dining Variant 1-B2C",
+        "description": "Marriott International in India encompasses a portfolio of 135 hotels under 16 leading brands spanning more than 35 cities. Marriott operates and franchises hotels and licenses vacation ownership resorts all around the world. The company offers Marriott Bonvoy™, its highly awarded travel program. For more information, please visit our website at www.marriott.com, and for the latest company news, visit www.marriottnewscenter.com. In addition, connect with us on Facebook and @MarriottIntl on Twitter and Instagram Redefining the art of gifting! Gift an experience to your loved ones with the Marriott India Gift Card and let every occasion be a special way to say you care. Enjoy luxurious stays, exquisite dining experiences, spa appointments and many more indulgences at any Marriott Hotel in India",
+        "shortDescription": "<p>&bull; &nbsp; &nbsp;Gift Card balance is only valid for one (1) year from the date of issuance/activation.</p><p>&bull; &nbsp; &nbsp;Each Gift Card shall be single use and only one transaction can be performed on the Gift Card.</p><p>&bull; &nbsp; &nbsp;Partial redemption of a Gift Card shall not be possible.</p>",
+        "disableCart": false,
+        "purchaserLimit": null,
+        "purchaserDescription": null,
+        "offerShortDesc": null,
+        "relatedProductOptions": {
+            "PROMO": false,
+            "DESIGNS": false,
+            "RELATED": false
+        },
+        "url": "marriott-india-egift-card-dining-variant-1-b2c",
+        "quantity": {
+            "min": null,
+            "max": null
+        },
+        "price": {
+            "price": "SLAB",
+            "type": "SLAB",
+            "min": "1000",
+            "max": "10000",
+            "denominations": [
+                "1000",
+                "2500",
+                "4000",
+                "5000",
+                "7500",
+                "8000",
+                "10000"
+            ],
+            "currency": {
+                "code": "INR",
+                "symbol": "₹",
+                "numericCode": "356"
+            },
+            "cpg": [],
+            "defaultPrice": null
+        },
+        "kycEnabled": "0",
+        "additionalForm": null,
+        "metaInformation": {
+            "page": {
+                "title": null
+            },
+            "meta": {
+                "title": null,
+                "keywords": null,
+                "description": null,
+                "category": null,
+                "index": "0"
+            },
+            "canonical": {
+                "url": null
+            }
+        },
+        "type": "DIGITAL",
+        "cardBehaviour": "qc",
+        "schedulingEnabled": false,
+        "currency": "356",
+        "images": {
+            "thumbnail": "https://giftbig.s3.amazonaws.com/microsite/product/EGCGBMARI002/d/thumbnail/3316_microsite.png?appId=2087",
+            "mobile": "https://giftbig.s3.amazonaws.com/microsite/product/EGCGBMARI002/d/mobile/3316_microsite.png?appId=2087",
+            "base": "https://giftbig.s3.amazonaws.com/microsite/product/EGCGBMARI002/d/image/3316_microsite.png?appId=2087",
+            "small": "https://giftbig.s3.amazonaws.com/microsite/product/EGCGBMARI002/d/small_image/3316_spayapi.png?appId=2087"
+        },
+        "tnc": {
+            "link": "https://www.qwikcilver.com/terms-and-conditions",
+            "content": "<p>The Marriott Hotels Gift Card is issued by Pine Labs Private Limited (&ldquo;Pine Labs&rdquo;) under the Brand Name of Qwikcilver. This Gift Card may be applied to eligible purchases at participating Marriott hotels in India (for a list of participating hotels please refer [https://www.qwikcilver.com/terms-and-conditions/marriott-hotels].<br />Gift Card cannot be used outside of India.<br />Eligible purchases do not include advanced purchases, deposits, friends and family rates, payments for meetings, catering or group functions, negotiated rates (including volume, group, contracted, or other rates that have been previously negotiated and agreed in writing whether paid on a group or individual basis), and goods/services purchased through or provided by third parties, such as online or off-line travel agents. All other purchases made at participating Marriott hotels in India are eligible. Use of this Gift Card constitutes acceptance of terms. Certain purchases (e.g., hotel stays) may have a minimum age requirement. Subject to these terms, the Gift Card can be redeemed at hotel-operated restaurants, spa, salon or other services provided directly by participating hotel.<br />Marriott Gift card needs to be registered before use. To register and activate your Marriott Gift Card, please send a SMS from your mobile phone as follows:&nbsp;<span>ACT&lt;space&gt;CardNumber&lt;space&gt;CardPin&lt;space&gt;FirstName&lt;space&gt;LastName&nbsp;to 7045379388</span><br />The registration can also happen through logging in to the SSA portal http:https://marriotthotelsindiagcbal.qwikcilver.com/QwikCilver/sclp.ssa/welcome.aspx?orgname=Marriott%20Hotels%20India<br />The sending of the said message to the designated mobile number and receipt of due acknowledgement thereto, shall constitute registration of the User. Marriott / Pine Labs shall honour and consider requests for blocking of Gift Cards only from users who have registered in accordance with the terms above.<br />Each Gift Card shall be single use and only one transaction can be performed on Gift Card. Partial redemption of a Gift Card shall not be possible.<br />The Gift Card balance is only valid for one (1) year from the date of issuance/activation. Gift Card may not be reloaded.<br />Gift Card carries no value until activated. This Gift Card shall be deemed active upon loading of fixed denominations of INR 1000, INR 2500, INR 5000, INR 7500 or INR 10,000. The maximum denomination per card is limited to INR 10,000<br />If the purchase value exceeds the value of the Gift Card, the differential value should be paid by the customer who redeems the Gift Card.<br />Valid Gift Card in its original form (email) has to be presented at the time of availment. Gift Card is issued in Indian Rupees.<br />No fees or charges apply to Gift Cards.<br />This Gift Card cannot be transferred for balance value or redeemed for cash.<br />No replacement / compensation is permissible/ payable for lost /stolen or damaged Gift Card.<br />Gift Card and these terms are governed by the laws of India. Any dispute relating to the Gift Card shall be subject to the exclusive jurisdiction of courts at Bangalore. Marriott and related marks are trademarks of Marriott International Corporation or its affiliates.<br />Marriott reserves the right to institute additional security and verification procedures at the time of card redemption for fraud prevention. Marriott and/or Pine Labs reserve the entitlement to amend these terms and conditions from time to time.<br />For complete Terms and Conditions, please visit [https://www.qwikcilver.com/terms-and-conditions/marriott-hotels ] and for Check Balance Enquiries the consumers are invited to refer to [ https://www.woohoo.in/balenq] . Gift Cards issued by Pine Labs Private Limited. All rights reserved.<br />Please refer the Customer Grievance policy for dispute resolution, unauthorized transactions and liability related aspects at [ https://www.qwikcilver.com/grievance-policy/].<br />The cardholder may request for the revalidation of the expired gift card. Upon receipt of such request the gift card may be revalidated after due verification and maybe subject to additional terms and conditions.<br />List of participating hotels that accept Marriott Gift Card:<br />JW Marriott Mussoorie Walnut Grove Resort &amp; Spa<br />Goa Marriott Resort &amp; Spa<br />JW Marriott Mumbai Sahar<br />Renaissance Mumbai Convention Centre Hotel<br />The St. Regis Mumbai<br />JW Marriott Hotel Bengaluru<br />Bengaluru Marriott Hotel Whitefield<br />The Ritz-Carlton, Bangalore<br />Sheraton Grand Bengaluru Whitefield &amp; Convention Center<br />Sheraton Grand Chennai Resort &amp; Spa<br />The Westin Gurugram, New Delhi<br />The Westin Sohna Resort &amp; Spa<br />JW Marriott Mumbai Juhu<br />JW Marriott Hotel Kolkata<br />The Westin Kolkata Rajarhat<br />Aloft New Delhi Aerocity<br />Le Meridien Gurugram, Delhi NCR<br />Le Meridien Mahabaleshwar Resort &amp; Spa<br />W Goa<br />Courtyard by Marriott Mumbai<br />The Westin Mumbai Garden City<br />Aloft Bengaluru Cessna Business Park<br />Sheraton Grand Bangalore At Brigade Gateway<br />Fairfield by Marriott Pune Kharadi<br />The Westin Pune Koregaon Park<br />Courtyard by Marriott Agra<br />JW Marriott Hotel Chandigarh<br />Courtyard by Marriott Raipur<br />Four Points By Sheraton, Kochi Infopark<br />Four Points by Sheraton Mahablipuram Resort &amp; Convention Center<br />Marriott Suites Pune<br />The Ritz Carlton Pune<br />Fairfield by Marriott Belagavi<br />Sheraton Grand Pune Bund Garden Hotel<br />JW Marriott Hotel Pune<br />Courtyard by Marriott Pune Chakan<br />Courtyard by Marriott Pune Hinjewadi<br />Fairfield by Marriott Amritsar<br />Le Meridien Kochi<br />Courtyard by Marriott Amritsar<br />Courtyard by Marriott Bilaspur<br />Sheraton Hyderabad Hotel<br />Kochi Marriott Hotel<br />Hyderabad Marriott Hotel &amp; Convention Centre<br />Courtyard by Marriott Hyderabad<br />Fairfield by Marriott Coimbatore<br />The Westin Chennai, Valechery<br />Courtyard by Marriott Kochi<br />Courtyard by Marriott Siliguri<br />Indore Marriott Hotel<br />JW Marriott Hotel New Delhi Aerocity<br />Tribute Kochi<br />Fairfield by Marriott Sriperumbudur<br />Jaipur Marriott Hotel<br />Courtyard by Marriott Bengaluru ORR<br />Fairfield by Marriott Bengaluru ORR<br />Renaissance Lucknow Hotel<br />Sheraton Grand Palace Indore<br />Le Meridien Jaipur Resort &amp; Spa<br />Courtyard by Marriott Madurai<br />Fairfield by Marriott Visakhapatnam<br />Fairfield by Marriott Goa Anjuna<br />Courtyard by Marriott Gurugram<br />Marriott Executive Apartments Hyderabad<br />Four Points By Sheraton, Bengaluru Whitefield<br />Four Points by Sheraton, Srinagar<br />Courtyard by Marriott Bhopal<br />Fairfield by Marriott Bengaluru Whitefiled<br />Fairfield by Marriott Bengaluru Rajajinagar<br />Fairfield by Marriott Jodhpur Hotel<br />Courtyard by Marriott Bengaluru Hebbal<br />Courtyard by Marriott Chennai<br />Le Meridien Goa, Calangute<br />Renaissance Ahmedabad Hotel<br />Fairfield by Marriott Kolkata<br />Le Meridien Nagpur<br />Jaisalmer Marriott Resort &amp; Spa<br />Courtyard by Marriott_Aravali<br />Fairfield by Marriott_Indore<br />Fairfield by Marriott Agra<br />Marriott Executive Apartments<br />Courtyard by Marriott_Navi Mumbai<br />St Regis Goa<br />The Westin Resort and Spa Himalayas<br />Fairfield by Marriott Goa, Benaulim<br />JW Marriott Bengaluru Prestige Golfshire Resort &amp; Spa<br />E-Gift Cards are normally delivered instantly. But sometimes due to system issues, the delivery can be delayed up-to 24 - 48 hours.</p><br/><p><strong style=\"box-sizing: border-box; font-weight: bold; color: #000000; font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 14.6667px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: #ffffff; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;\">By purchasing this gift voucher, you consent to sharing your PII ( Name, Email ID, Telephone Number if available ) with the issuer ( PineLabs ), as per the guidelines of PPI</strong></p>"
+        },
+        "categories": [
+            "7",
+            "8",
+            "10",
+            "19",
+            "50",
+            "192",
+            "288",
+            "330",
+            "608",
+            "610",
+            "632",
+            "689",
+            "690",
+            "796",
+            "891",
+            "892",
+            "893",
+            "896",
+            "897",
+            "899",
+            "903",
+            "905",
+            "911",
+            "913",
+            "921",
+            "926",
+            "934",
+            "949",
+            "952",
+            "953",
+            "955",
+            "962",
+            "976",
+            "991",
+            "992",
+            "995",
+            "1000",
+            "1005",
+            "1011",
+            "1012",
+            "1016",
+            "1017"
+        ],
+        "themes": [],
+        "customThemesAvailable": false,
+        "handlingCharges": [],
+        "reloadCardNumber": false,
+        "expiry": "1 year from the date of issue",
+        "formatExpiry": null,
+        "couponcodeDesc": null,
+        "discounts": [],
+        "corporateDiscounts": {
+            "discount": [
+                {
+                    "amount": 8.25,
+                    "endDate": null,
+                    "startDate": "2025-04-16T00:00:00",
+                    "type": "fixed"
+                }
+            ],
+            "sku": "EGCGBMARI002"
+        },
+        "relatedProducts": [],
+        "storeLocatorUrl": null,
+        "brandName": "Marriott Hotels India",
+        "brandCode": "Marriott-Hotels-India",
+        "etaMessage": "",
+        "createdAt": "2021-05-12T16:03:52+00:00",
+        "updatedAt": "2025-04-29T09:26:11+00:00",
+        "cpg": {
+            "barcode": {
+                "encoding": null
+            },
+            "redemptionTerms": [],
+            "type": "sclp",
+            "code": "Marriott India B2C eGift Card",
+            "redeemable": [
+                "OFFLINE"
+            ],
+            "howToUse": "<p>&bull; &nbsp; &nbsp;Marriott Gift card needs to be registered before use. To register and activate your Marriott Gift Card, please send a SMS from your mobile phone as follows: ACT<space>CardNumber<space>CardPin<space>FirstName<space>LastName to 9741352666.</p>\r\n\r\n<p>&bull; &nbsp; &nbsp;The sending of the said message to the designated mobile number and receipt of due acknowledgement thereto, shall constitute registration of the User.</p>\r\n\r\n<p>&bull; &nbsp; &nbsp;The Marriott Gift Card will need to be presented via the email that the customer has received at the time of purchase.</p>\r\n\r\n<p>&bull; &nbsp; &nbsp;The customer will need to provide the 16-digit gift card number & the 6-digit PIN that was provided to redeem the Gift Card either at the time of check in or check out for room accommodation or after availing the services for F&B /Spa services at the participating Marriott Hotels</p>"
+        },
+        "payout": {
+            "enabled": true,
+            "payment_methods": [
+                "svc"
+            ],
+            "account_types": [
+                "BANK_ACCOUNT",
+                "UPI",
+                "TELEPHONE"
+            ],
+            "transaction_types": [
+                "IMPS",
+                "NEFT",
+                "UPI"
+            ],
+            "maximum_beneficiaries": "",
+            "validate_terms_and_condition": "",
+            "validation": {
+                "amount": "1",
+                "edit_beneficiary": true,
+                "convenience_charge": "",
+                "vpa_penny_drop_required": false
+            }
+        },
+        "convenience_charges": [],
+        "allowedfulfillments": [
+            {
+                "code": false
+            }
+        ],
+        "rewardsDescription": null,
+        "campaigns": null
+    }
+}
