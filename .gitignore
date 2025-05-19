@@ -1,0 +1,5 @@
+# Ignore all .json and .txt files in the results directory
+# except for results.json
+results/*.json
+results/*.txt
+raw_data/*.json

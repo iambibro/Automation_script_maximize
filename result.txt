@@ -2,7 +2,7 @@ Marriott India Egift Card-Dining Variant 1-B2C
 
 EGCGBMARI002
 
-
+1000,2500,4000,5000,7500,8000,10000
 
 Marriott International in India encompasses a portfolio of 135 hotels under 16 leading brands spanning more than 35 cities. Marriott operates and franchises hotels and licenses vacation ownership resorts all around the world. The company offers Marriott Bonvoy™, its highly awarded travel program. For more information, please visit our website at www.marriott.com, and for the latest company news, visit www.marriottnewscenter.com. In addition, connect with us on Facebook and @MarriottIntl on Twitter and Instagram Redefining the art of gifting! Gift an experience to your loved ones with the Marriott India Gift Card and let every occasion be a special way to say you care. Enjoy luxurious stays, exquisite dining experiences, spa appointments and many more indulgences at any Marriott Hotel in India
 
@@ -144,6 +144,11 @@ Update gift_cards set shortInfo =
     "icon": " https://savemax.s3.ap-south-1.amazonaws.com/giftcard/icons/how-to-use-icon.svg",
     "title": "Single Use or Multiple Use?",
     "subtext": "Must use the full balance in one go"
+  },
+  {
+    "icon": " https://savemax.s3.ap-south-1.amazonaws.com/giftcard/icons/clubbale-icon.svg",
+    "title": "Can the cards be clubbed?",
+    "subtext": "See T&C"
   },
   {
     "icon": " https://savemax.s3.ap-south-1.amazonaws.com/giftcard/icons/calender-icon.svg",
